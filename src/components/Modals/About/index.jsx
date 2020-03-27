@@ -46,7 +46,7 @@ export default class AboutModal extends Component {
       >
         <div className={styles.describtion}>
           <div>
-            <img src="/assets/logo_tr.svg" alt="" />
+            <img src="/assets/logo_tr.png" alt="" />
           </div>
           <p>{t('KS_DESCRIPTION')}</p>
           <strong>

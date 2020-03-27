@@ -1,5 +1,6 @@
 .wrapper {
-  background: #242e42; 
+  background: #34495f; 
+  // background: #242e42; 
   color: #79879c;
   border-radius: 4px;
   height: 612px;
@@ -73,7 +74,8 @@
           padding: 0;
           :global {
             .select-control {
-              background-color: #242e42;
+              background-color: #34495f;
+              // background-color: #242e42;
               border: solid 1px #182236;
               color: inherit;
               font-weight: 400;
@@ -123,7 +125,8 @@
           li {
             width: 33.3333%;
             font-weight: 600;
-            color: #242e42;
+            color: #34495f;
+            // color: #242e42;
             line-height: 24px;
             margin: 4px 0;
             cursor: pointer;

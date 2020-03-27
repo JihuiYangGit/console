@@ -91,7 +91,7 @@ export default class ResourceStatistics extends React.Component {
     const components = [
       {
         type: 'kubesphere',
-        icon: '/assets/i9000.svg',
+        icon: '/assets/i9000-black.png',
       },
       {
         type: 'kubeSystem',

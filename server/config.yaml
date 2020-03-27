@@ -35,10 +35,11 @@ server:
 
 client:
   # title: KubeSphere
-  title: i9000
+  title: Sugon_edu i9000
 
   version:
-    kubesphere: 2.1.0
+    # kubesphere: 2.1.0
+    i9000: 1.0.0
 
   # kubesphere urls
   issueUrl: https://github.com/kubesphere/kubesphere/issues/new/choose

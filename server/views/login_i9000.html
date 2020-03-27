@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+
+
+<html dir="ltr" lang="en">
+<head>
+    <title>Sugon_edu I9000</title>
+    <link href="/resources/sugonedu/images/square-logo.png" rel="shortcut icon" />
+    <meta charset="utf-8" />
+    <meta name="author" content="Sugon_edu" />
+    <meta name="copyright" content="Copyright &amp;#169; Sugon_edu, Inc.  2020. All Rights Reserved." />
+    <meta name="robots" content="all" />
+    <meta name="Description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/resources/sugonedu/stylesheets/application.css" rel="stylesheet" />
+    <style>.header-image {background-image: url(/resources/sugonedu/images/product-logo.png);}</style>
+</head>
+<body>
+<div id="particles-js"></div>
+<script src="/resources/sugonedu/javascript/particles.js"></script>
+<script src="/resources/sugonedu/javascript/particles_show.js"></script>
+<div class="content">
+    <div class="header">
+        <div class="header-image"></div>
+    </div>
+
+    <div class="island">
+    <h1>欢迎!</h1>
+    <div class="island-content">
+        <div class="masking"></div>
+        
+        <form method="post" novalidate="novalidate" action="/login.do">
+            
+            <input class="form-control" name="username" type="text" placeholder="用户名/邮箱" autofocus="autofocus" />
+            <input class="form-control" autocomplete="off" name="password" type="password" placeholder="密码" />
+            <input type="submit" value="登录" class="island-button" />
+            <script>
+                window.onload = function () {
+                    var alert = document.getElementsByClassName('alert');
+                    if (window.location.search !=='') {
+                        document.getElementsByName('username')[0].autofocus = false;
+                        document.getElementsByName('username')[0].blur();
+                    }
+                    document.getElementsByName('username')[0].onfocus = function () {
+
+                        /* <![CDATA[ */
+
+                        for (var i = 0; i < alert.length; i++) {
+                            alert[i].style.display = 'none';
+                        }
+                        /* ]]> */
+                    }
+                }
+            </script>
+        <input type="hidden" name="X-Uaa-Csrf" value="mrgIwh" /></form>
+        
+        <div class="saml-login">
+            
+            
+        </div>
+        
+        <span>
+            <a href="http://login.i9000.com/forgot_password" class="link-lowlight">重置密码</a>
+        </span>
+        
+    </div>
+</div>
+    <div class="footer-spacer"></div>
+</div>
+
+
+    
+
+</body>
+</html>
+

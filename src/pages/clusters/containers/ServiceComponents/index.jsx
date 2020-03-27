@@ -60,7 +60,7 @@ export default class ServiceComponents extends React.Component {
     {
       type: 'kubesphere',
       title: 'i9000',
-      icon: '/assets/i9000.svg',
+      icon: '/assets/i9000-black.png',
     },
     {
       type: 'kubernetes',

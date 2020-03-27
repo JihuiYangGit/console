@@ -59,7 +59,7 @@ svg {
 }
 
 .logo img {
-  width: 180px;
+  /* width: 180px; */
   height: 40px;
 }
 
@@ -78,7 +78,8 @@ svg {
   position: relative;
   font-weight: 600;
   font-size: 12px;
-  color: #242e42;
+  color: #34495f;
+  /* color: #242e42; */
   line-height: 20px;
   text-align: center;
 }
@@ -221,8 +222,10 @@ input::-webkit-input-placeholder {
   font-weight: 500;
   line-height: 20px;
   box-shadow: 0 8px 16px 0 rgba(36, 46, 66, 0.28);
-  border: solid 1px #242e42;
-  background-color: #242e42;
+  border: solid 1px #34495f;
+  background-color: #34495f;
+  /* border: solid 1px #242e42;
+  background-color: #242e42; */
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }

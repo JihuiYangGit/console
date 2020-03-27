@@ -9,6 +9,11 @@
   cursor: pointer;
   transition: all $trans-speed ease-in-out;
   @include TypographySymbolText();
+  color: white;
+
+  &:hover{
+    color: #36435c;
+  }
 
   .content {
     height: 20px;
