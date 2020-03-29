@@ -20,11 +20,15 @@
   </head>
 
   <body>
-    <%- include('../public/icon.svg') %>
+    <div id="particles-js"></div>
+    <script src="/public/particles.js"></script>
+    <script src="/public/particles_show.js"></script>
+    <%- include('../public/icon.svg') %> 
     <a href="/" class="logo">
       <img src="/assets/logo_tr.png" alt="" />
     </a>
     <div class="login">
+      <!-- <div class="masking"></div> -->
       <div class="login-form <%- error ? 'login-form-error' : '' %>">
         <div class="login-header"><%- t('Log In please') %></div>
         <div class="login-divider"></div>
